@@ -5,7 +5,7 @@
 
 22 may:
   1. Merge Intervals
-  2. Minimum number of insertion and Deletion requiered to change one string to another
+  2. Minimum number of insertion and Deletion required to change one string to another
   3. 2 sum
   4. 3 sum
 
@@ -26,3 +26,6 @@
 
 26 May:
   1. Matrix Chain Multiplication
+  2. palindrome partitioning
+  3. Insert delete and getRandom O(1)
+  4. LRU Cache
