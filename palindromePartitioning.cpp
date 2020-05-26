@@ -28,8 +28,24 @@ int minCuts(string &s, int i, int j, vector < vector < int > > &dp) {
 
   // int minimumCuts = INT_MAX;
   int tempCuts = INT_MAX;
+  int left = INT_MAX;
+  int right = INT_MAX;
   for (int k = i; k < j; k++) {
-    tempCuts = minCuts(s, i, k, dp) + minCuts(s, k + 1, j, dp) + 1;
+    if (dp[i][k] != INT_MAX) {
+      left = dp[i][k];
+    } else {
+      left = minCuts(s, i, k, dp);
+      dp[i][k] = left;
+    }
+
+    if (dp[k + 1][j] != INT_MAX) {
+      right = dp[k + 1][j];
+    } else {
+      right = minCuts(s, k + 1, j, dp);
+      dp[k + 1][j] = right;
+    }
+
+    tempCuts = left + right + 1;
     dp[i][j] = min(dp[i][j], tempCuts);
   }
 
