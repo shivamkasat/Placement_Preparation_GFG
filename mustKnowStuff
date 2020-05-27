@@ -1,0 +1,20 @@
+String Related
+  1. To convert any base string to base 10 stoi(binaryString, nullptr, base)
+  2.Integer to string
+      to_string(interger)
+
+Random number
+  1. Get a random number between given range [min, max]
+      randomNumber = min + rand() * (max - min + 1)
+
+
+Custom Comparator
+  comp(a, b) should return true if a is supposed to be placed before b //
+  example
+    descendingOrder(int a, int b) {
+      return a > b
+    }
+    
+    largestNumber(string a, string b) {
+      return a + b > b + a
+    }
