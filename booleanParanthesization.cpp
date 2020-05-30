@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define mod 1003
 using namespace std;
 
 int findWays(string &s, int i, int j, bool isTrue, unordered_map < string , int > &hmap) {

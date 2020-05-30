@@ -1,0 +1,35 @@
+General
+
+Dynamic Programming
+  1. LIS O(NlogN)
+
+Tree
+  1. Serialize and Deserialize a N-array tree
+  2. Find the largest BST in a given binary tree
+  3. In a binary tree add the values of all the nodes greater than the present node to the value of the present node.
+  4. print all the nodes at a distance k from the present node in the binary tree
+  5. Given a binary tree delete a node such that the BST property holds
+
+
+Linked list
+  1 .Find Nth node from last in a linked list without extra space #two_pointer
+
+
+Bit Manipulation
+  1. missing number in array where every element repeat twice except one.
+
+
+Trie
+  1. Alien dictionary
+
+Array
+  1. given array of positive and negetive integers partition them such that positives are on left and negetives on right and relative order doesn't change
+
+Algorithms
+  1. Algorithm to find a given word in all the files and subfolders
+
+String
+  1. Pattern Matching Algorithm (KMP, Z-alogrithm)
+
+Recursion
+  1. Josuphous problem
