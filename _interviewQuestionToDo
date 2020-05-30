@@ -24,7 +24,7 @@ Trie
 
 Array
   1. given array of positive and negetive integers partition them such that positives are on left and negetives on right and relative order doesn't change
-
+  2. Trailing zeros in factorial
 Algorithms
   1. Algorithm to find a given word in all the files and subfolders
 
