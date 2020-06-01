@@ -1,3 +1,7 @@
+O(NlogN) => heap, sorting
+O(N) => two pointer, sliding window, hashing, stack(3 Magical conditions), pigeon hole principle.
+
+
 String Related
   1. To convert any base string to base 10 stoi(binaryString, nullptr, base)
   2.Integer to string
@@ -14,7 +18,15 @@ Custom Comparator
     descendingOrder(int a, int b) {
       return a > b
     }
-    
+
     largestNumber(string a, string b) {
       return a + b > b + a
     }
+
+Coversions:
+  interger to String ->   to_string(interger)
+  string to integer ->    stoi(string)
+  ------------
+  char to int        ->   x - '0'
+  int to char        ->   char(x) + '0'
+  ------------
