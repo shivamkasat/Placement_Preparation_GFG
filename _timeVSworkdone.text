@@ -57,5 +57,11 @@
 
 2 June:
   1. First missing positive number
-  2. Repeated and missing number
-  3. Maxsppord (interviewbit)
+  2. Repeated and missing number => using summation method 2.Using xor logic
+  3. Maxspprod (interviewbit)
+  4. Find non-repeating numbers given 2n + 2 numbers. -> 1. Using hashset 2. Using xor logic
+
+3 June:
+  1. Max Distance
+  2. Rotate Matrix
+  3. find Next permutation
