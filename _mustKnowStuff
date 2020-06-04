@@ -36,3 +36,6 @@ Bit Magic:
   2. A xor 1 = A`
   3. A xor A = 0
   4. finding the right most set bit of a number 'A' => A & ~(A - 1)   -------------- it will only have 1 bit set and rest other bits are zero.
+
+Creating a priority queue of pair 
+  priority_queue < pair < int, int > , vector < pair < int, int > >, greater < pair < int, int > > > pq;
