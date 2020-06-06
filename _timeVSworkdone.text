@@ -71,3 +71,11 @@
 4 June:
   1. binary Search basics;
   2. count of a number in a sorted array.
+  3. Rotation count
+
+5 June:
+  1. Search an element in a rotated sorted array
+  2. Amazon test => 2.) finding next greater to next smaller (Stack) (3.) Palindrome and two pointers.
+  3. Finding floor of an element
+  4. finding element with minimum difference with the given element
+  5. Peak element
