@@ -34,7 +34,7 @@ int main() {
   while (test--) {
     int n;
     cin>>n;
-    vector < string > strs(n, 0);
+    vector < string > strs(n);
     for (int i = 0; i < n; i++) {
       cin>>strs[i];
     }
