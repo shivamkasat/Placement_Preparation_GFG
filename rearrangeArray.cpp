@@ -3,14 +3,14 @@ using namespace std;
 
 void arrange(vector < int > &nums, int i, int &prev, int &start) {
   if (i == start) {
-    prev = -1 * nums[i];
+    prev = nums[i];
     return;
   }
 
   arrange(nums, nums[i], prev, start);
   int temp = nums[i];
   nums[i] = prev;
-  prev = -1 * temp;
+  prev = temp;
 }
 
 void rearrange(vector < int > &nums) {
@@ -23,7 +23,7 @@ void rearrange(vector < int > &nums) {
 
       arrange(nums, nums[i], prev, start);
       nums[i] = prev;
-    }
+  }
     i++;
   }
 }
