@@ -6,6 +6,8 @@ String Related
   1. To convert any base string to base 10 stoi(binaryString, nullptr, base)
   2.Integer to string
       to_string(interger)
+  3.String consturctor 
+    string var_name(size, char);
 
 Random number
   1. Get a random number between given range [min, max]
@@ -37,5 +39,5 @@ Bit Magic:
   3. A xor A = 0
   4. finding the right most set bit of a number 'A' => A & ~(A - 1)   -------------- it will only have 1 bit set and rest other bits are zero.
 
-Creating a priority queue of pair 
+Creating a priority queue of pair
   priority_queue < pair < int, int > , vector < pair < int, int > >, greater < pair < int, int > > > pq;

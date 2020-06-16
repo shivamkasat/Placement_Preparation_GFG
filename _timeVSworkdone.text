@@ -104,5 +104,30 @@
   1. Palindrome string
   2. Longest common prefix
   3. Count and say
-  4. amazing substrings
+  4. amazing subarrays
   5. length of the last word
+
+11 June:
+  1. Minimum character requried to make string palindrome
+  2. Atoi
+  3. Codeforces education 88 problem B
+
+12 June:
+  1. Valid Ip Address/ restore Ip Address
+  2. Roman To Integer
+  3. Integer to Roman
+
+13 June:
+  1. Binary String addition
+  2. Power of 2
+
+14 June:
+  1. Text justification
+  2. ZigZag strings
+
+15. June
+  1. KMP pattern matching
+  2. Rabin Karp pattern matching
+  3. Merge two sorted Arrays
+  4. Merge two sorted LinkedList
+  5. Merge sorted arrays without using extra space.

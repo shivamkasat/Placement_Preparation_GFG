@@ -2,7 +2,7 @@
 using namespace std;
 
 int findSolution(vector < int > &nums) {
-  
+
 }
 
 int main() {
