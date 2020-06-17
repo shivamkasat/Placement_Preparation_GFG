@@ -1,12 +1,12 @@
 O(NlogN) => heap, sorting
 O(N) => two pointer, sliding window, hashing, stack(3 Magical conditions), pigeon hole principle.
-
+Always pass vectors and other data structures as reference if not passed as references copy constructor will work and consume more time.
 
 String Related
   1. To convert any base string to base 10 stoi(binaryString, nullptr, base)
   2.Integer to string
       to_string(interger)
-  3.String consturctor 
+  3.String consturctor
     string var_name(size, char);
 
 Random number
