@@ -39,6 +39,32 @@ void printList(ListNode *head) {
 }
 
 // create your function of interest here.
+ListNode* removeNthElem(ListNode *head, int n) {
+  ListNode *first = head;
+  ListNode *second = head;
+  ListNode *prev = NULL;
+  for (int i = 0; i < n; i++) {
+    if (second == NULL && i < n) {
+        break;
+    }
+    second = second->next;
+  }
+
+  while (second != NULL) {
+    prev = first;
+    first = first->next;
+    second = second->next;
+  }
+
+  if (prev != NULL) {
+    prev->next = first->next;
+  } else {
+    head = head->next;
+  }
+
+  return head;
+
+}
 
 
 int main() {
@@ -55,7 +81,13 @@ int main() {
       head1 = insertNode(head1, newNode);
     }
 
+    int n1;
+    cin>>n1;
+
     // call you intrested function here.
+    head1 = removeNthElem(head1, n1);
+    printList(head1);
+    cout<<"end of printing"<<endl;
 
   }
   return 0;

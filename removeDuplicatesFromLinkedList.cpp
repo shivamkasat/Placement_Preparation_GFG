@@ -39,6 +39,27 @@ void printList(ListNode *head) {
 }
 
 // create your function of interest here.
+ListNode* removeDuplicates(ListNode *head) {
+  if (head->next == NULL) {
+    return head;
+  }
+  ListNode *temp1 = head;
+  ListNode *temp2 = head->next;
+
+  while (temp2 != NULL) {
+    if (temp1->val != temp2->val) {
+      temp1->next = temp2;
+      temp1 = temp2;
+      temp2 = temp1->next;
+    } else {
+      temp2 = temp2->next;
+    }
+  }
+
+  temp1->next = temp2;
+  return head;
+
+}
 
 
 int main() {
@@ -55,7 +76,8 @@ int main() {
       head1 = insertNode(head1, newNode);
     }
 
-    // call you intrested function here.
+    head1 = removeDuplicates(head1);
+    printList(head1);
 
   }
   return 0;
