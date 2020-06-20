@@ -25,9 +25,11 @@ Trie
   1. Alien dictionary
 
 Array
-  1. given array of positive and negetive integers partition them such that positives are on left and negetives on right and relative order doesn't change
+  DONE -1. given array of positive and negetive integers partition them such that positives are on left and negetives on right and relative order doesn't change
   2. Trailing zeros in factorial
   3. Run length encoding
+  4. Subarry with sum in a given range (count of range sum Leetcode)
+  5. Subarray with sum less than Ks
 
 Algorithms
   1. Algorithm to find a given word in all the files and subfolders
