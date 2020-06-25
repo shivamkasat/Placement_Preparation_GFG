@@ -1,5 +1,4 @@
-// { Driver Code Starts
-// C++ Program to print Bottom View of Binary Tree
+// can also be solved using preorder traversal but level order traversel way is more easier.
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -24,8 +23,8 @@ Node* make_tree()
 {
 	int n;
 	cin>>n;
-	
-    
+
+
 	Node* head=NULL;
 	queue <Node*> q;
 
@@ -49,12 +48,12 @@ Node* make_tree()
 			pick->left = new Node(b);
 			q.push( pick->left );
 		}
-		
+
 		n--;
 		if(!n) break;
-		
+
 		cin>> a >> b >> c;
-		
+
 		if(c == 'R')
 		{
 			pick->right = new Node(b);
@@ -72,7 +71,7 @@ int main()
   scanf("%d\n", &t);
   while (t--)
   {
-     
+
      Node* root = make_tree();
      bottomView(root);
      cout << endl;
@@ -120,9 +119,9 @@ void bottomView(Node *root)
 			qn.push(temp->right);
 			qr.push(rank + 1);
 		}
-		
+
 		mmap[rank] = temp->data;
-		
+
 
 		qn.pop();
 		qr.pop();
@@ -130,8 +129,6 @@ void bottomView(Node *root)
 
 
 	for (auto itr = mmap.begin(); itr != mmap.end(); itr++) {
-	       printf("%d ", (itr->second));	
+	       printf("%d ", (itr->second));
 	}
 }
-
-

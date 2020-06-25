@@ -183,3 +183,34 @@
   2. Fraction
   3. Points on a line
   4. Substring concatenation.
+
+23 June:
+  1. Maximum element in window
+  2. magician and chocolates
+  3. Merge K sorted arrays
+  4. Distinct Numbers in windows
+  5. Max Depth of a tree
+  6. Min depth of a tree
+  7. Sum root to leef numbers
+
+24 June:
+  1. Identical Trees
+  2. Symmetric Trees
+  3. Preorder Traversal (Iterative)
+  4. Inorder Traversal (Iterative);
+  5. Postorder Traversal (Iterative)
+  6. Cartesian Tree from inorder traversal
+  7. Least Common Ancestor
+  8. Flatten a binary Tree to Linked List
+
+25 June:
+  1. Tree from preorder and inorder
+  2. Level Order traveral in spiral form
+  3. Bottom view of a binary tree
+  4. Vertical Order traversal of binary tree
+  5. Recover BST
+
+26 June:
+  1. Serialize and deserialize a binary tree
+  2. Binary tree to doubly linked list
+  3. All nodes at a distance of k from given node.
