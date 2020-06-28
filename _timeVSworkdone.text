@@ -214,3 +214,6 @@
   1. Serialize and deserialize a binary tree
   2. Binary tree to doubly linked list
   3. All nodes at a distance of k from given node.
+  4. subsets
+  5. combinations
+  6. combination sum
