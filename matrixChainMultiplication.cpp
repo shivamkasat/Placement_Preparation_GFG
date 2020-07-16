@@ -2,7 +2,7 @@
 using namespace std;
 
 int calcCost(vector < int > &nums, int i, int j, vector < vector < int > > &dp) {
-  if (i == j) {
+  if (i >= j) {
     return 0;
   }
 
