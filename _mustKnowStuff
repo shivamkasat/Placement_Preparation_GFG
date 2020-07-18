@@ -1,4 +1,4 @@
-O(NlogN) => heap, sorting
+O(NlogN) => heap, sorting, set, map
 O(N) => two pointer, sliding window, hashing, stack(3 Magical conditions), pigeon hole principle.
 Always pass vectors and other data structures as reference if not passed as references copy constructor will work and consume more time.
 
