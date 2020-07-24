@@ -41,3 +41,6 @@ Bit Magic:
 
 Creating a priority queue of pair
   priority_queue < pair < int, int > , vector < pair < int, int > >, greater < pair < int, int > > > pq;
+
+clearing queue:
+  swap(q, queue < pair <int, int > >);
