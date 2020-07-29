@@ -1,6 +1,9 @@
 O(NlogN) => heap, sorting, set, map
 O(N) => two pointer, sliding window, hashing, stack(3 Magical conditions), pigeon hole principle.
 Always pass vectors and other data structures as reference if not passed as references copy constructor will work and consume more time.
+Tree is nothing but a graph with V - 1 edges that mean agar tree ka question tree se ni ho raha ho to graph se socho may be possible graph se ho jae.
+
+
 
 String Related
   1. To convert any base string to base 10 stoi(binaryString, nullptr, base)
@@ -25,11 +28,20 @@ Custom Comparator
       return a + b > b + a
     }
 
+  In case of set, map, and priority queue you have to create comparion class where you have to overload () operator.
+  class comp {
+    bool operator()(pair < int, int > &A, pair < int, int > &B) {
+      return A.first > B.first;
+    }
+  };
+
+
+
 Coversions:
   interger to String ->   to_string(interger)
   string to integer ->    stoi(string)
   ------------
-  char to int        ->   x - '0'
+  char to int        ->   int(x) - '0'
   int to char        ->   char(x) + '0'
   ------------
 
@@ -43,4 +55,4 @@ Creating a priority queue of pair
   priority_queue < pair < int, int > , vector < pair < int, int > >, greater < pair < int, int > > > pq;
 
 clearing queue:
-  swap(q, queue < pair <int, int > >);
+  swap(q, queue < type >);
