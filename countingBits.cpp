@@ -17,6 +17,7 @@ vector < int > countBits(int n) {
 	return dp;
 }
 
+
 int main() {
 	int test;
 	cin>>test;
